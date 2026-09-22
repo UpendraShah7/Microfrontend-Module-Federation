@@ -1,0 +1,10 @@
+{
+  "latestErrorEvent": {
+    "code": "TYPE-001",
+    "message": "Failed to generate type declaration. Execute the below cmd to reproduce and fix the error. #TYPE-001\nargs: {\"cmd\":\"\\\"C:\\\\\\\\Program Files\\\\\\\\nodejs\\\\\\\\node.exe\\\" C:\\\\Users\\\\dell\\\\OneDrive\\\\Desktop\\\\mfe-example\\\\node_modules\\\\.pnpm\\\\typescript@6.0.3\\\\node_modules\\\\typescript\\\\bin\\\\tsc --project C:\\\\Users\\\\dell\\\\OneDrive\\\\Desktop\\\\mfe-example\\\\apps\\\\identity-remote\\\\node_modules\\\\.federation\\\\tsconfig.708266ff495f6ca28c8e8d4cc80928be.json\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/type#type-001",
+    "args": {
+      "cmd": "\"C:\\\\Program Files\\\\nodejs\\\\node.exe\" C:\\Users\\dell\\OneDrive\\Desktop\\mfe-example\\node_modules\\.pnpm\\typescript@6.0.3\\node_modules\\typescript\\bin\\tsc --project C:\\Users\\dell\\OneDrive\\Desktop\\mfe-example\\apps\\identity-remote\\node_modules\\.federation\\tsconfig.708266ff495f6ca28c8e8d4cc80928be.json"
+    },
+    "timestamp": 1790076986124
+  }
+}

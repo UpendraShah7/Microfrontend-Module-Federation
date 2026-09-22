@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  color: #e2e8f0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to bottom, #020817, #0f172a);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.shell-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.shell-shell {
+  width: 100%;
+  max-width: 1100px;
+  background: rgba(15, 23, 42, 0.9);
+  border: 1px solid #334155;
+  border-radius: 24px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+}
+
+.shell-header {
+  padding: 30px 30px 10px;
+}
+
+.brand-wrap {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.brand-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: #67e8f9;
+  color: #082f49;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.brand-eyebrow {
+  margin: 0 0 6px;
+  color: #67e8f9;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.shell-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #f8fafc;
+}
+
+.shell-content {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 24px;
+  padding: 10px 30px 30px;
+}
+
+.shell-panel {
+  padding: 24px;
+  border: 1px solid #334155;
+  border-radius: 18px;
+  background: rgba(15, 23, 42, 0.75);
+}
+
+.shell-overline {
+  margin: 0 0 12px;
+  color: #67e8f9;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.shell-panel h2 {
+  margin: 0;
+  font-size: 2rem;
+  color: #f8fafc;
+}
+
+.shell-copy {
+  margin: 16px 0 0;
+  color: #cbd5e1;
+  line-height: 1.6;
+}
+
+.shell-remote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 280px;
+}
+
+.remote-loading {
+  padding: 18px 20px;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  background: #0f172a;
+  color: #cbd5e1;
+}
+
+@media (max-width: 768px) {
+  .shell-content {
+    grid-template-columns: 1fr;
+  }
+
+  .shell-header,
+  .shell-content {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .shell-header h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .shell-page {
+    padding: 12px;
+  }
+
+  .brand-wrap {
+    align-items: flex-start;
+  }
+}
