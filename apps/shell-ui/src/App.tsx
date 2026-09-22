@@ -1,6 +1,8 @@
 import { lazy, Suspense } from "react";
 import { loadRemote } from "@module-federation/enhanced/runtime";
 import "./App.css";
+import { MainLayout } from "@example/ui";
+
 
 const Login = lazy(() =>
   loadRemote("identity_module/Login").then((mod: any) => ({
@@ -11,6 +13,7 @@ const Login = lazy(() =>
 export default function App() {
   return (
     <div className="shell-page">
+      <MainLayout><div>Hello</div></MainLayout>
       <div className="shell-shell">
         <header className="shell-header">
           <div className="brand-wrap">

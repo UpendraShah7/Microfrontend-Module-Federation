@@ -9,6 +9,7 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
+    "@example/ui" : "workspace:*",
     "@module-federation/enhanced": "^2.9.1",
     "@module-federation/rsbuild-plugin": "^2.9.1",
     "react": "^19.3.0",

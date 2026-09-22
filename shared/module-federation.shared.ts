@@ -1,14 +1,14 @@
 export const sharedDependencies = {
   react: {
     singleton: true,
-    requiredVersion: '^18.0.0',
+    requiredVersion: "^19.0.0",
   },
-  'react-dom': {
+  "react-dom": {
     singleton: true,
-    requiredVersion: '^18.0.0',
+    requiredVersion: "^19.0.0",
   },
-  'react-router-dom': {
+  "react-router-dom": {
     singleton: true,
-    requiredVersion: '^6.0.0',
+    requiredVersion: "^6.0.0",
   },
 };
